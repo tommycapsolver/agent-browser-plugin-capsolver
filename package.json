@@ -1,0 +1,40 @@
+{
+  "name": "agent-browser-plugin-capsolver",
+  "version": "0.1.0",
+  "description": "CapSolver CAPTCHA provider plugin for agent-browser",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "agent-browser-plugin-capsolver": "./bin/plugin.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/plugin.js && node --check src/plugin.js && node --test"
+  },
+  "keywords": [
+    "agent-browser",
+    "capsolver",
+    "captcha",
+    "browser-automation",
+    "ai-agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommycapsolver/agent-browser-plugin-capsolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tommycapsolver/agent-browser-plugin-capsolver/issues"
+  },
+  "homepage": "https://github.com/tommycapsolver/agent-browser-plugin-capsolver#readme"
+}      
+        
